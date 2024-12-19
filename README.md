@@ -87,7 +87,7 @@ Before starting, ensure you have:
    screen -dmS PortWatcher ./port_monitor.sh
    ```
 
-4. **Stop the Script Press `Ctrl+C` to stop the script. It will terminate cleanly and stop monitoring.**
+4. **Press `Ctrl+C` to stop the script. It will terminate cleanly and stop monitoring.**
 
 
 ---

@@ -82,8 +82,12 @@ Before starting, ensure you have:
    ```bash
    ./port_monitor.sh
    ```
+   You can use `screen` too
+   ```bash
+   screen -dmS PortWatcher ./port_monitor.sh
+   ```
 
-3. **Stop the Script Press `Ctrl+C` to stop the script. It will terminate cleanly and stop monitoring.**
+4. **Stop the Script Press `Ctrl+C` to stop the script. It will terminate cleanly and stop monitoring.**
 
 
 ---

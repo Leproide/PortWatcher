@@ -22,7 +22,7 @@ Before starting, ensure you have:
    - Get your Telegram chat ID using the [Telegram bot API](https://api.telegram.org/bot<your_bot_token>/getUpdates).
 
 3. **Gotify Setup**
-   - Set up a Gotify server ([instructions](https://gotify.net/docs/setup)).
+   - Set up a Gotify server ([instructions](https://gotify.net/docs/install)).
    - Obtain a valid **Gotify app token**.
 
 4. **Dependencies**

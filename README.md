@@ -72,7 +72,6 @@ Before starting, ensure you have:
 
 ## Usage
 
-```bash
 1. **Make the Script Executable**
    Run the following command to give the script execution permissions:
    ```bash

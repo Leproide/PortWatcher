@@ -77,10 +77,12 @@ Before starting, ensure you have:
    Run the following command to give the script execution permissions:
    ```bash
    chmod +x port_monitor.sh
+   ```
 
 2. **Run the Script Execute the script using:**
    ```bash
    ./port_monitor.sh
+   ```
 
 3. **Stop the Script Press `Ctrl+C` to stop the script. It will terminate cleanly and stop monitoring.**
 
@@ -96,7 +98,6 @@ Before starting, ensure you have:
 
 ## Troubleshooting
 
-```bash
 1. **Error: Command Not Found**
    - Ensure `nc` (Netcat) and `curl` are installed:
      ```bash

@@ -45,7 +45,7 @@ Before starting, ensure you have:
    - **IP/Hostname and Port to Monitor:**
      ```bash
      ipToCheck="your-server-address.com"   # Replace with the server address or IP you want to monitor
-     portToCheck=27222                     # Replace with the port number you want to check
+     portToCheck=22                     # Replace with the port number you want to check
      ```
 
    - **Telegram Credentials:**

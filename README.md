@@ -77,3 +77,48 @@ Before starting, ensure you have:
    Run the following command to give the script execution permissions:
    ```bash
    chmod +x port_monitor.sh
+
+2. **Run the Script Execute the script using:**
+   ```bash
+   ./port_monitor.sh
+
+3. **Stop the Script Press `Ctrl+C` to stop the script. It will terminate cleanly and stop monitoring.**
+
+
+---
+
+## Notifications
+
+- **Down Alert:** When the monitored port becomes unreachable, notifications will be sent via Telegram and Gotify.
+- **Recovery Alert:** When the port is back online, a recovery notification will be sent.
+
+---
+
+## Troubleshooting
+
+```bash
+1. **Error: Command Not Found**
+   - Ensure `nc` (Netcat) and `curl` are installed:
+     ```bash
+     sudo apt install netcat curl   # For Debian/Ubuntu
+     sudo yum install nc curl       # For CentOS/RHEL
+     ```
+
+2. **Telegram Not Sending Messages**
+   - Double-check the `telegramToken` and `telegramChatId` values.
+   - Test your bot by visiting this URL in your browser:
+     ```
+     https://api.telegram.org/bot<YOUR_TELEGRAM_BOT_TOKEN>/sendMessage?chat_id=<YOUR_CHAT_ID>&text=TestMessage
+     ```
+
+3. **Gotify Not Sending Messages**
+   - Ensure your Gotify server is running and accessible.
+   - Verify your app token and server URL.
+
+4. **Script Not Running**
+   - Ensure the script has executable permissions:
+     ```bash
+     chmod +x port_monitor.sh
+     ```
+   - Make sure you're running the script in a Bash-compatible terminal.
+
